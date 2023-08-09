@@ -5,6 +5,7 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 
 .header, .footer, .intro {
@@ -40,7 +41,7 @@ li a {
     flex: 1;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 80px;
     gap: 30px;
 }
 
@@ -119,22 +120,54 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 80px;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    max-width: 75y0px;
+    max-width: 800px;
 }
 
 .text {
     font-size: 36px;
     font-weight: 100;
     font-style: italic;
-    margin-bottom: 0px;
+    margin: 0px;
 }
 
 .credit {
     font-weight: bold;
     align-self: flex-end;
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.action {
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 90px;
+    color: #F9FAF8;
+    padding: 30px 100px;
+    flex-basis: 900px;
+}
+
+.sign {
+    flex-shrink: 0;
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
 }
