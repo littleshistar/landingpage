@@ -41,6 +41,7 @@ li a {
     justify-content: center;
     align-items: center;
     padding: 30px;
+    gap: 30px;
 }
 
 h1 {
@@ -49,7 +50,7 @@ h1 {
 }
 
 .welcome {
-    max-width: 900px;
+    max-width: 450px;
 }
 
 .welcome p {
@@ -70,8 +71,44 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 280px;
-    width: 900px;
+    height: 260px;
+    width: 550px;
     color: #E5E7EB;
     background-color: #7c828a;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.picture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    text-align: center;
+}
+
+.pic {
+    height: 150px;
+    width: 150px;
+    border-width: 5px;
+    border: #3882F6;
+    border-radius: 15px;
+    border-style: solid;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1F2937;
 }
