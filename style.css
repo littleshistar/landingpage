@@ -145,7 +145,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px;
+    margin: 80px;
 }
 
 .action {
@@ -170,4 +170,8 @@ h2 {
 a {
     text-decoration: none;
     color: #F9FAF8;
+}
+
+.footer {
+    padding: 15px;
 }
