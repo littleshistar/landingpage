@@ -112,3 +112,29 @@ h2 {
     font-size: 36px;
     color: #1F2937;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 75y0px;
+}
+
+.text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+
+.credit {
+    font-weight: bold;
+    align-self: flex-end;
+}
